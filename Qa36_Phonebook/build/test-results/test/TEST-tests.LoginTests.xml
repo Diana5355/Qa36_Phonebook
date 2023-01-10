@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-10T18:26:54" hostname="Air-Diana.lan" time="1.355">
+  <properties/>
+  <testcase name="loginWrongPassword" classname="tests.LoginTests" time="1.355"/>
+  <system-out><![CDATA[Wrong email or password
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
