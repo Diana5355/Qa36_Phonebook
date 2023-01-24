@@ -1,6 +1,7 @@
 package manager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -13,11 +14,22 @@ public class HelperBase {
     }
 
     public void type(By locator, String text){
-        if(text!=null){
             WebElement element = wd.findElement(locator);
             element.click();
-            element.clear();
-            element.sendKeys(text);
+            element.sendKeys(Keys.COMMAND+"a");
+            element.sendKeys(Keys.BACK_SPACE);
+
+            if(text!=null) {
+                element.sendKeys(text);
+            }
+
+    }
+
+    public void pause(int time){
+        try{
+            Thread.sleep(time);
+        } catch(InterruptedException e){
+            throw new RuntimeException(e);
         }
     }
 

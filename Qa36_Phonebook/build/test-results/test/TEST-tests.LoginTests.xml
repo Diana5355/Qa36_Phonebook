@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-10T18:26:54" hostname="Air-Diana.lan" time="1.355">
+<testsuite name="tests.LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-24T18:55:00" hostname="Air-Diana.lan" time="1.278">
   <properties/>
-  <testcase name="loginWrongPassword" classname="tests.LoginTests" time="1.355"/>
-  <system-out><![CDATA[Wrong email or password
+  <testcase name="loginSuccess" classname="tests.LoginTests" time="1.278"/>
+  <system-out><![CDATA[20:54:54.936  INFO  tests.TestBase - The name of starts method is --->loginSuccess
+20:55:00.004  INFO  tests.TestBase - Login with valid data : email:noa@gmail.com & password:Nnoa12345$ 
+20:55:01.280  INFO  tests.TestBase - Tests success
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
