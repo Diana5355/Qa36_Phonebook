@@ -36,4 +36,19 @@ public class HelperBase {
     public void click(By locator){
         wd.findElement(locator).click();
     }
+
+
+
+
+    public void test(String data){ // "30"
+        String st = "Hello";
+        String st1 = "World";
+        System.out.println(st+st1);  // "HelloWorld"
+        // "//div[text()='" +data" + "']" === //div[text()='39']
+
+        String locator = "//div[text()=" + data+ "']";
+
+        click(By.xpath(locator));
+
+    }
 }

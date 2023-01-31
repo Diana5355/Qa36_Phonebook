@@ -1,0 +1,34 @@
+10:11:33.792  INFO  manager.ApplicationManager - All tests start in Chrome Browser
+10:11:34.985  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+10:11:35.007  INFO  tests.TestBase - The name of starts method is --->loginSuccess
+10:11:35.008  INFO  manager.ListenerWD - Before find element -->By.xpath: //button[text()='Sign Out']
+10:11:40.054  INFO  manager.ListenerWD - After find element -->By.xpath: //button[text()='Sign Out']
+10:11:40.057  INFO  manager.ListenerWD - List size is -->0
+10:11:40.059  INFO  tests.TestBase - Login with valid data : email:noa@gmail.com & password:Nnoa12345$ 
+10:11:40.060  INFO  manager.ListenerWD - Before find element -->By.cssSelector: a[href='/l']
+10:11:45.076  INFO  manager.ListenerWD - ****************************
+10:11:45.076  INFO  manager.ListenerWD - Method methodfindElement
+10:11:45.076  INFO  manager.ListenerWD - ****************************
+10:11:45.077  INFO  manager.ListenerWD - InvocationTargetException getMessage()null
+10:11:45.077  INFO  manager.ListenerWD - ****************************
+10:11:45.079  INFO  manager.ListenerWD - InvocationTargetException getTargetException()org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"a[href='/l']"}
+  (Session info: chrome=109.0.5414.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.0.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d1a067d2c0f57788b822cc7ed4f81e5d, findElement {using=css selector, value=a[href='/l']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/wy/lhj2chjn7l7...}, goog:chromeOptions: {debuggerAddress: localhost:49417}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49417/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d1a067d2c0f57788b822cc7ed4f81e5d
+10:11:45.080  INFO  manager.ListenerWD - ****************************
+10:11:45.080  INFO  manager.ListenerWD - InvocationTargetException Cause()org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"a[href='/l']"}
+  (Session info: chrome=109.0.5414.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.0.1', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d1a067d2c0f57788b822cc7ed4f81e5d, findElement {using=css selector, value=a[href='/l']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /var/folders/wy/lhj2chjn7l7...}, goog:chromeOptions: {debuggerAddress: localhost:49417}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49417/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d1a067d2c0f57788b822cc7ed4f81e5d
+10:11:45.081  INFO  manager.ListenerWD - ****************************
+10:11:45.081  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on MAC (d1a067d2c0f57788b822cc7ed4f81e5d)
